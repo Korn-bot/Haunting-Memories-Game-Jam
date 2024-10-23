@@ -1,0 +1,23 @@
+// Main game
+
+	1 : searching for Notes from a " place " to find a " code " to a door to get out of the place while being chased by something
+	2 : normal Wasd Movment
+		{
+			 You can walk normal at a speed however u can sprit for a short Durration which rechardes quickly
+		}
+	3 : Top Down
+	4 : Ineract button 
+	5 : Generated text 
+	6 : Intteract button that pops up
+	7 : " Notes " screen 
+	
+	
+
+
+	9 : global timer : player can see in the topright 
+	{ If u arent hidden when it reacher 0 something comes and  kills u}
+	when u hide there is a small perius of like 5s then it restarts the lock
+	
+	10 : a mini map with " hide spots  " 
+
+

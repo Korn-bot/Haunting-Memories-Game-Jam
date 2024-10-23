@@ -1,0 +1,10 @@
+draw_text_color(
+	10,
+	10,
+	my_text_draw,
+	my_text_colour._x,
+	my_text_colour._y,
+	my_text_colour._z,
+	my_text_colour._w,
+	my_text_colour._a
+)

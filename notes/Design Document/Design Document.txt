@@ -1,0 +1,32 @@
+1
+----------------------------------------------------------------------
+: have a layer system that will take a " note " turn on the layuer , 
+set a alarm clock until X is finished doing something like " spawning " characters 
+then retuern to game to make " cutscenese " 
+
+Timeline : 
+
+1 : Text Get triggered 
+2 : Text is grabed into a varaible provided in the function
+3 : Game is " Frozen " 
+4 : Layer for " text is enabled " 
+5 : Draw Text Object is made at pre made X/Y
+6 : that text is then displayed every X seconds 
+7 : once its all done , then tirgger another " function " or END depeneding on var provided
+
+2 :
+----------------------------------------------------------------------
+Proper Game System
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+
+1 : Draw Text to screen in a good looking manner : DONE
+2 : Movment with sprint
+3 : Hiding in Closets
+4 : Global Clock timer
+5 : Game State machine
+6 : Menus
+7 : Sound
