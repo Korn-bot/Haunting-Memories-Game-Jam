@@ -22,11 +22,12 @@ Proper Game System
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 
-
+0 : Room/Game setup :  like size  : kind of DONE ?
 1 : Draw Text to screen in a good looking manner : DONE
-2 : Movment with sprint
-3 : Hiding in Closets
-4 : Global Clock timer
+2 : Movment with sprint : DONE
+3 : Hiding in Closets : DONE-ish
+4 : Global Clock timer 
 5 : Game State machine
 6 : Menus
 7 : Sound
+9 : Room transiton Logic ( that is easy to manage ) : DONE!!!!!!!!!

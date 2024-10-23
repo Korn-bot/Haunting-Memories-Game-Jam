@@ -1,19 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_game_controller",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Object5",
+  "eventList":[],
   "managed":true,
-  "name":"obj_game_controller",
+  "name":"Object5",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game_controller",
-    "path":"folders/Objects/Game_controller.yy",
+    "name":"Throw_aways",
+    "path":"folders/Objects/Throw_aways.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sp_testing_room_sizes",
+    "path":"sprites/sp_testing_room_sizes/sp_testing_room_sizes.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
