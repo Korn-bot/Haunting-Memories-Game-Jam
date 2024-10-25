@@ -1,7 +1,7 @@
 /// 
 
 // creates the object of Text that has a self incremeting loop before it deletes it self 
-function draw_text_over_time(_text,_vector5,_draw_speed,_my_linger_timer){
+function draw_text_over_time(_text,_clour,_draw_speed,_my_linger_timer){
 	
 	//Fixing Frames to seconds
 	var _fixed_timer = _draw_speed * 60;
@@ -12,7 +12,7 @@ function draw_text_over_time(_text,_vector5,_draw_speed,_my_linger_timer){
 		//Passed variables
 		my_text : _text,
 		my_Itteration_timer : _fixed_timer,
-		my_text_colour : _vector5,
+		my_text_colour : _clour,
 		my_linger_timer : _fixed_my_linger_timer
 		
 		}

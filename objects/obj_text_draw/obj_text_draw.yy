@@ -11,8 +11,8 @@
   "name":"obj_text_draw",
   "overriddenProperties":[],
   "parent":{
-    "name":"Testing_Objects",
-    "path":"folders/Objects/Testing_Objects.yy",
+    "name":"Non-Alive",
+    "path":"folders/Objects/Game_Actors/Non-Alive.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -8,12 +8,27 @@
 		
 	// reset the itterator
 		my_itterator = 0;
+		
 	// increase the string position
 		pos_int_string++;
+		
 	// Add to my_text_draw string a chracter at time based on position
-		add_to_my_text(string_char_at(my_text,pos_int_string));
-	// play audio clip
-		//audio_play_sound(sud_exmaple_sound, 100, false); 
+		var char_to_add = string_char_at(my_text,pos_int_string);
+		add_to_my_text(char_to_add);
+		
+	// play audio clip----------------------------------------------------
+		// get a sound randomly based on number of sounds and sound group name
+		var talk_sound = asset_get_index(pick_random_talk_noise(4,"sud_ghost_talk_"));
+		// see if audio is playing or not , and if its a space or not 
+		if((audio_is_playing(talk_sound)==false) && char_to_add != " "){
+	
+			audio_play_sound(
+				talk_sound,
+				global.Master_Volume, 
+				false
+			);
+		}//--------------------------------------------------------------
+	
 	}
 // -------------------------------------------------------------------------------------
 
