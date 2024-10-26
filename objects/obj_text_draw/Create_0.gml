@@ -4,7 +4,7 @@
 
 // Text Itteration 
 	my_itterator = 0;
-	pos_int_string =0;
+	pos_int_string = 0;
 	my_text_length = string_length(my_text);
 	
 

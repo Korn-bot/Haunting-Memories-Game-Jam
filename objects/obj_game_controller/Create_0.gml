@@ -1,4 +1,7 @@
-my_text_colour = new Vector5(c_white,c_white,c_white,c_white,255);
+	global.game_state = "";
+	GAME_CONTROLER_SWITCH_STATE_MAIN_MENU();
 
 // Game varaibles
 	global.Master_Volume = 100;
+	
+	

@@ -51,6 +51,7 @@
   },
   "name":"Haunting Memories",
   "resources":[
+    {"id":{"name":"Coding to do","path":"notes/Coding to do/Coding to do.yy",},},
     {"id":{"name":"Design Document","path":"notes/Design Document/Design Document.yy",},},
     {"id":{"name":"Game_Ideas","path":"notes/Game_Ideas/Game_Ideas.yy",},},
     {"id":{"name":"n_exmaple_text","path":"notes/n_exmaple_text/n_exmaple_text.yy",},},
@@ -66,6 +67,7 @@
     {"id":{"name":"Object5","path":"objects/Object5/Object5.yy",},},
     {"id":{"name":"r_game_room_one","path":"rooms/r_game_room_one/r_game_room_one.yy",},},
     {"id":{"name":"r_test_chracter_spawner","path":"rooms/r_test_chracter_spawner/r_test_chracter_spawner.yy",},},
+    {"id":{"name":"GAME_CONTROLLER","path":"scripts/GAME_CONTROLLER/GAME_CONTROLLER.yy",},},
     {"id":{"name":"MathV2","path":"scripts/MathV2/MathV2.yy",},},
     {"id":{"name":"Player_Controls","path":"scripts/Player_Controls/Player_Controls.yy",},},
     {"id":{"name":"scr_cutscene_engine","path":"scripts/scr_cutscene_engine/scr_cutscene_engine.yy",},},

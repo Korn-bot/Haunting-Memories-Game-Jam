@@ -8,7 +8,7 @@
 		
 	// reset the itterator
 		my_itterator = 0;
-		
+	
 	// increase the string position
 		pos_int_string++;
 		

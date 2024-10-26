@@ -1,0 +1,6 @@
+1 : Game State 
+2 : Fix text 
+3 : Add Transition Screens 
+4 : Desing the Rooms
+5 : Add Final text puzzel
+6 : Add main menu
