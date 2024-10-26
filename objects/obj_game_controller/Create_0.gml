@@ -1,7 +1,11 @@
-	global.game_state = "";
-	GAME_CONTROLER_SWITCH_STATE_MAIN_MENU();
+// INIT GAME DATA HOLDERS-----------------------
+	global.LAYER_CONTROLER		= new LAYER_CONTROLER();
+	global.GAME_STATE_MACHINE	= new GAME_STATE(); 
 
-// Game varaibles
-	global.Master_Volume = 100;
-	
+// GLOBAL VARIABLES ----------------------------
+	global.Master_Volume		= 100;
+	global.game_state			= "";
+		
+// FUNCTION FOR INIT ---------------------------
+	GAME_CONTROLER_SWITCH_STATE_GAME_PLAYING();
 	

@@ -36,3 +36,32 @@ function layer_follow_cammera(_layer_NAME){
 	layer_x(current_text_layer,view_camera_x);
 	layer_y(current_text_layer,view_camera_y);
 }
+
+// BASE GAME INSTANCE LOGIC ---------------------------------------------------------------------------
+function LAYER_CONTROLER() constructor{
+	
+	// Get all the layers ( switches per room so the names have to be consistant )
+		// ART SECTION
+			room_background_layer = layer_get_id("Background");
+			room_background_tile_layer = layer_get_id("l_background");
+			room_background_enviroment_tile_layer = layer_get_id("l_enviroment");
+		// ASSETS & OBJECTS
+			room_instances_layer = layer_get_id("Instances");		
+		// TEXT AND CUTSCNES
+			room_text_layer = layer_get_id("l_text_cutscene");	
+			room_text_tiles_layer = layer_get_id("l_text_tiles");	
+}
+	
+	// List of usefull function to manage base room layers
+	function LAYER_SET_VISIBILITY_TEXT(_visibility){
+		layer_set_visible(global.LAYER_CONTROLER.room_text_layer,_visibility);
+		layer_set_visible(global.LAYER_CONTROLER.room_text_tiles_layer,_visibility);
+	}
+	function LAYER_SET_VISIBILITY_GAME(_visibility){
+		layer_set_visible(global.LAYER_CONTROLER.room_background_layer,_visibility);
+		layer_set_visible(global.LAYER_CONTROLER.room_background_tile_layer,_visibility);
+		layer_set_visible(global.LAYER_CONTROLER.room_background_enviroment_tile_layer,_visibility);
+	}
+	function LAYER_SET_VISIBILITY_GAME_OPTIONS(_visibility){
+		// NOT YET MADE
+	}

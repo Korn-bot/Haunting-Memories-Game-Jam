@@ -22,30 +22,30 @@ function get_GAME_STATE(){
 }
 
 function GAME_CONTROLER_SWITCH_STATE_MAIN_MENU(){
-	global.game_state = new GAME_STATE().MAIN_MENU;
+	global.game_state = global.GAME_STATE_MACHINE.MAIN_MENU;
 }
 
 function GAME_CONTROLER_SWITCH_STATE_MAIN_MENU_OPTIONS(){
-	global.game_state = new GAME_STATE().MAIN_MENU_OPTIONS;
+	global.game_state = global.GAME_STATE_MACHINE.MAIN_MENU_OPTIONS;
 }
 
 function GAME_CONTROLER_SWITCH_STATE_MAIN_MENU_RULES(){
-	global.game_state = new GAME_STATE().MAIN_MENU_RULES;
+	global.game_state = global.GAME_STATE_MACHINE.MAIN_MENU_RULES;
 }
 
 function GAME_CONTROLER_SWITCH_STATE_GAME_PLAYING(){
-	global.game_state = new GAME_STATE().GAME_PLAYING;
+	global.game_state = global.GAME_STATE_MACHINE.GAME_PLAYING;
 }
 
 function GAME_CONTROLER_SWITCH_STATE_GAME_TEXT_DISPLAY(){
-	global.game_state = new GAME_STATE().GAME_TEXT_DISPLAY;
+	global.game_state = global.GAME_STATE_MACHINE.GAME_TEXT_DISPLAY;
 }
 
 function GAME_CONTROLER_SWITCH_STATE_GAME_CUTSCENE(){
-	global.game_state = new GAME_STATE().GAME_CUTSCENE;
+	global.game_state = global.GAME_STATE_MACHINE.GAME_CUTSCENE;
 }
 function GAME_CONTROLER_SWITCH_STATE_GAME_OPTIONS(){
-	global.game_state = new GAME_STATE().GAME_OPTIONS;
+	global.game_state = global.GAME_STATE_MACHINE.GAME_OPTIONS;
 }
 
 
